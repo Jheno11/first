@@ -8,7 +8,7 @@ st.write(
 
 st.title("Upload and Display dataset")
 
-uploaded_file = st.file_uploader("Choose the datasetWhiteMerged.csv file", type="csv")
+uploaded_file = st.file_uploader("Choose the dataset (csv)", type="csv")
 
 if uploaded_file is not None:
     # Read the CSV file
