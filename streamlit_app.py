@@ -1,12 +1,12 @@
 import streamlit as st
 import pandas as pd
 
-st.title("🎈 My new app is streamlit")
+st.title("🎈 Prostate Cancer")
 st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+    "a demo for preprocessing and modeling of prostate cancer dataset"
 )
 
-st.title("Upload and Display datasetWhiteMerged.csv")
+st.title("Upload and Display dataset")
 
 uploaded_file = st.file_uploader("Choose the datasetWhiteMerged.csv file", type="csv")
 
